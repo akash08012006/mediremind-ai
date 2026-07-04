@@ -1,0 +1,6 @@
+{
+  "name": "MediRemind AI",
+  "description": "Smart AI-Based Medical Prescription Reminder System helps patients upload prescriptions, schedule alerts, and track medicine statuses with caretaker notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
