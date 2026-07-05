@@ -62,6 +62,24 @@ This project uses **SQLite** (file-based, zero configuration) for development. N
 - `npm run dev` — Start Vite frontend only (port 3000)
 - `npm run server` — Start Express backend only (port 3001)
 - `npm run dev:all` — Start both frontend and backend concurrently
+- `npm run build` — Build frontend for production
+- `npm run build:server` — Build backend for production
+- `npm start` — Start production server
+
+---
+
+## Deployment
+
+This application is ready to deploy to [Render](https://render.com/). See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
+
+**Quick Deploy Steps:**
+1. Push your code to GitHub/GitLab
+2. Create a new Web Service on Render
+3. Connect your repository
+4. Set environment variables (`GEMINI_API_KEY`, `NODE_ENV`, `APP_URL`)
+5. Deploy!
+
+The `render.yaml` configuration file is already included for automatic setup.
 
 ---
 

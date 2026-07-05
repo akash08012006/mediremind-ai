@@ -1,0 +1,8 @@
+# Files to ignore during Render build
+.env
+.env.local
+.kilo/
+*.db
+*.db-shm
+*.db-wal
+test-server.js
