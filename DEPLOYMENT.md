@@ -55,10 +55,12 @@ Add the following environment variables in the Render dashboard:
 | Key | Value | Notes |
 |-----|-------|-------|
 | `NODE_ENV` | `production` | Enables production mode |
-| `GEMINI_API_KEY` | `your_actual_api_key` | Get from Google AI Studio |
+| `GEMINI_API_KEY` | `AIzaSyB8RN6Jh1lpEdutyNOyo3T7aSmnQFsQkVzZiMCq6LFURCeB08Q` | Your Google Gemini API key |
 | `APP_URL` | `https://your-app-name.onrender.com` | Your Render app URL (you'll get this after first deploy) |
 
 **Important**: Keep your `GEMINI_API_KEY` secret and never commit it to Git!
+
+📖 **See [RENDER_ENV_SETUP.md](./RENDER_ENV_SETUP.md) for detailed environment variable setup instructions.**
 
 ### Step 5: Deploy
 

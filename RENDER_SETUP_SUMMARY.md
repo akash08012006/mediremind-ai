@@ -47,9 +47,11 @@ Visit `http://localhost:3001` to verify everything works.
 3. **Set Environment Variables:**
    ```
    NODE_ENV=production
-   GEMINI_API_KEY=your_actual_gemini_api_key
+   GEMINI_API_KEY=AIzaSyB8RN6Jh1lpEdutyNOyo3T7aSmnQFsQkVzZiMCq6LFURCeB08Q
    APP_URL=https://your-app.onrender.com
    ```
+   
+   📖 **See [RENDER_ENV_SETUP.md](./RENDER_ENV_SETUP.md) for detailed instructions**
 
 4. **Click "Create Web Service"**
 
@@ -71,8 +73,10 @@ node dist-server/index.js
 |----------|-------------|---------|
 | `NODE_ENV` | Environment mode | `production` |
 | `PORT` | Server port (auto-set by Render) | `10000` |
-| `GEMINI_API_KEY` | Google Gemini API key | `AIza...` |
+| `GEMINI_API_KEY` | Google Gemini API key | `AIzaSyB8RN6Jh1lpEdutyNOyo3T7aSmnQFsQkVzZiMCq6LFURCeB08Q` |
 | `APP_URL` | Your deployed app URL | `https://mediremind-ai.onrender.com` |
+
+📖 **See [RENDER_ENV_SETUP.md](./RENDER_ENV_SETUP.md) for detailed setup instructions**
 
 ## ⚠️ Important Notes
 
